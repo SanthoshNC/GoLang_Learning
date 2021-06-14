@@ -1,0 +1,21 @@
+Day 1:
+
+Introduction about GO
+Installation and verification of GO
+
+Hello World Program in GO
+
+https://pkg.go.dev/ - website to get the modules
+
+import - to import the modules
+
+go mod init <<module path name >> // go mod init example.com/hello
+
+go mod tidy // Add or remove packages
+
+go run . 
+
+Files:
+
+go.mod
+go.sum
