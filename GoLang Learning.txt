@@ -19,3 +19,20 @@ Files:
 
 go.mod
 go.sum
+
+
+=================
+
+Day 2:
+
+Intro to packages
+Intro to modules
+
+go mod init example.com/greetings
+
+Exported Name:  func Hello(name string) string
+
+:=  declaring and initializing a variable
+
+Sprintf() function
+
