@@ -36,3 +36,17 @@ Exported Name:  func Hello(name string) string
 
 Sprintf() function
 
+==============
+
+Day 3:
+
+Intro to call code from another module
+
+go mod edit -- to mention the module present locally
+
+replace directive in go.mod file
+
+pseudo-version number -- a generated number used in place of a semantic version number
+
+go run (.)
+
