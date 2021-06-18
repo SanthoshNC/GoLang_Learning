@@ -50,3 +50,21 @@ pseudo-version number -- a generated number used in place of a semantic version 
 
 go run (.)
 
+==============
+
+Day 4:
+
+Return and handle an error
+
+import "errors" - package to import to handle errors
+
+errors.New("empty name") - Our own error message
+
+import "log" - package for logging
+
+  log.SetPrefix("greetings: ") - Set properties of the predefined Logger, including the log entry prefix
+  log.SetFlags(0) - a flag to disable printing the time, source file, and line number.
+
+log.Fatal(err) - print the error and stop the program
+
+==============
