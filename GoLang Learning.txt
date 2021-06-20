@@ -68,3 +68,35 @@ import "log" - package for logging
 log.Fatal(err) - print the error and stop the program
 
 ==============
+
+Day 5:
+
+Return a random greeting
+
+import "math/rand" - package to import to rand function
+
+import "time" - package to import to time function
+
+randomFormat() - name starts with LowerCase - not exported
+
+[]string - dynamic declaration
+
+init() - executes automatically like a construcctor
+
+------
+
+Return greetings for multiple people
+
+map[key-type]value-type: syntax for map
+
+make() - to assign map to a variable
+
+_(an underscore) - Go blank identifier
+
+range - returns two values 
+
+1. index of the current item in the loop
+2. copy of the item's value
+
+===============
+
