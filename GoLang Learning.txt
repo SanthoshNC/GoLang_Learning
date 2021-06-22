@@ -100,3 +100,32 @@ range - returns two values
 
 ===============
 
+Day 6
+
+Add a test
+
+filename: <<name>>_test.go eg: greetings_test.go
+
+import (
+    "testing" - package to import to testing function
+    "regexp"  - package to import to regex function
+)
+
+Test function names: Test<<Name>>  - Name says something about the specific test 
+eg: TestHelloName(t *testing.T)  - pointer to the testing package's testing.T type
+
+fatalF - print a message to the console and end execution
+
+go test - executes test functions (whose names begin with Test) in test files (whose names end with _test.go).
+
+go test -v - verbose output that lists all of the tests and their results
+
+===============
+
+go build - compiles only (creates executable file)
+
+go install - compiles and installs the package in the GOBIN path
+
+go list -f '{{.Target}}' - finds the install path
+
+go env -w GOBIN=<<path>> eg: go env -w GOBIN=C:\path\to\your\bin
